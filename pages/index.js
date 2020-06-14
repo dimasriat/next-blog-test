@@ -10,7 +10,7 @@ export default function HomePage(props) {
 				<p>
 					<ReactMarkdown source={post.markdownBody} />
 				</p>
-				<p style={{ color: "crimson" }}>{JSON.stringify(post)}</p>
+				<p>{JSON.stringify(post)}</p>
 			</div>
 		));
 

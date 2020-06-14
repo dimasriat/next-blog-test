@@ -9,7 +9,7 @@ export default function BlogPost(props) {
 			<p>
 				<ReactMarkdown source={props.markdownBody} />
 			</p>
-			<p style={{ color: "crimson" }}>{JSON.stringify(props)}</p>
+			<p>{JSON.stringify(props)}</p>
 		</div>
 	);
 }
